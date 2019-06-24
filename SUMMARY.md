@@ -1,5 +1,8 @@
 # Table of contents
 
-* [Natsuko Docs](README.md)
-* [License](license.md)
+* [The Front Page](README.md)
+
+## Meta
+
+* [License](meta/license.md)
 
