@@ -76,7 +76,7 @@ Let's put everything we've learnt together:
 {% code-tabs-item title="ultimate-naughty-word-filter.js" %}
 ```javascript
 if (message.getContents().contains("naughty word")) {
-    message.getGuild().getChannelById(id("591735345406672935")).send(
+    message.getGuild().getChannelById(util.id("591735345406672935")).send(
         message.getAuthor().getName()
         + " sent a naughty word, so I deleted it and banned them!"
     );
