@@ -8,6 +8,8 @@ Natsuko supports writing scripts to power its automatic moderation engine. Scrip
 
 ## Example: Naughty Word Filter
 
+By the end of this example, we would have learnt how to delete messages, how to log messages, and finally how to punish users.
+
 Let's say one of our rules is that you cannot say the phrase "naughty word". We can easily write a script for this like so:
 
 {% code-tabs %}
@@ -44,7 +46,7 @@ Let's do another example:
 {% code-tabs-item title="logging-naughty-word-filter.js" %}
 ```javascript
 if (message.getContents().contains("naughty word")) {
-    message.getGuild().getChannelById(id("591735345406672935")).send(
+    message.getGuild().getChannelById(util.id("591735345406672935")).send(
         message.getAuthor().getName() + " said a naughty word!"
     );
 }
