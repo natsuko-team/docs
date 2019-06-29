@@ -6,6 +6,15 @@ description: A useful and powerful feature.
 
 Natsuko supports writing scripts to power its automatic moderation engine. Scripts are written in JavaScript. This allows you to, quite literally, teach the bot your server's rules. They are executed on message. Every object is wrapped in a Safe\* object, which can all be found in the [ScriptEngine package](https://github.com/natsuko-team/Natsuko/tree/master/src/ninja/natsuko/bot/scriptengine).
 
+## Command Usage
+
+Now, before we get ahead of ourselves lets go over how the `n;script` command is operated.  
+There are 4 subcommands,  `show, add, edit, delete` .  
+`n;script show [id]`: Checks the amount of script slots you have available \(as of yet, the limit is 3!\) Or, returns the contents of a script by its id.  
+`n;script add <script>`: Adds a new script, if there is space.  
+`n;script edit <id> <script>`: Edits an existing script, by id.  
+`n;script delete <id>`: Deletes an existing script, by id.
+
 ## Example: Naughty Word Filter
 
 By the end of this example, we would have learnt how to delete messages, how to log messages, and finally how to punish users.
