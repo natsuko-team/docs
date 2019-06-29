@@ -15,9 +15,11 @@ There are 4 subcommands,  `show, add, edit, delete` .
 `n;script edit <id> <script>`: Edits an existing script, by id.  
 `n;script delete <id>`: Deletes an existing script, by id.
 
-## Example: Naughty Word Filter
+## Examples
 
-By the end of this example, we would have learnt how to delete messages, how to log messages, and finally how to punish users.
+### Naughty Word Filter
+
+By the end of this example, we would have learnt how to delete messages, how to log messages, and finally how to punish users. This is a pretty simple script, so this should be easy for you to adapt yourself.
 
 Let's say one of our rules is that you cannot say the phrase "naughty word". We can easily write a script for this like so:
 
