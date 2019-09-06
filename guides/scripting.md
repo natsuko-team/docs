@@ -15,6 +15,10 @@ There are 4 subcommands,  `show, add, edit, delete` .
 `n;script edit <id> <script>`: Edits an existing script, by id.  
 `n;script delete <id>`: Deletes an existing script, by id.
 
+{% hint style="warning" %}
+Remember to put " at the beginning or end of your script, and put a \\ before any that appear in your script, otherwise it will cause an error!
+{% endhint %}
+
 ## Examples
 
 ### Naughty Word Filter
