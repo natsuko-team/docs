@@ -24,6 +24,9 @@ strikes.kickthreshold <number>: Set the strikes threshold required to kick. Defa
 strikes.banthreshold <number>: Set the strikes threshold required to ban. Default: 3
 strikes.bantime <time>: Set the time for strike-autoban expiry. Ex: 10m. Default: -1m
                         Available time units: (m)inutes, (h)ours, (d)ays, (w)eeks, 
+automod.antispam <on|off>: Set the status of anti-spam. Default: off.
+automod.antispam.mpslimit <number>: Set the number of messages-per-second to trigger antispam on. Default: 3.
+automod.antispam.threshold <number>: Set the threshold of messages-per-second limit hits to act upon. Default: 3.
 ```
 
 Configuration is optional, However, Features will be unavailable if not configured.
